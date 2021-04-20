@@ -6,8 +6,8 @@
 
 ### Build
 
-`go build CSV2Redis.go`
+`go build main.go`
 
 ### Example Usage
 
-`cat testdata.csv | ./CSV2Redis | redis-cli --pipe`
+`cat testdata.csv | ./main | redis-cli --pipe`
