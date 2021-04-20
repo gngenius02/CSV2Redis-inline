@@ -16,7 +16,6 @@ func scanner() {
 			if len(line[0]) > 1 && len(line[1]) > 1 {
 				fmt.Println("SET", line[1], line[0])
 			}
-
 		}
 	}
 }
