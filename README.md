@@ -16,3 +16,7 @@ go install
 ### Example Usage
 
 `cat testdata.csv | ./main | redis-cli --pipe`
+
+or
+
+`./main testdata.csv | redis-cli --pipe`
